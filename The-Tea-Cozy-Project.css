@@ -1,0 +1,210 @@
+body { 
+  font-family: Helvetica;
+  color: rgba(255, 245, 238, 0.89);
+  background-color: rgb(0, 0, 0); 
+  opacity: 0.9; 
+  font-size: 22px; 
+  margin: 0; 
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*=======================NAVBAR CSS=======================*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+#logo {
+  height: 50px;
+  padding: 10px;
+}
+
+a.nav-flex-item {
+  padding-right: 30;
+  text-decoration: underline seashell 1px;
+}
+
+/* NAV LINK COLORS*/
+
+a {
+  color: rgb(255, 246, 240);
+}
+
+a:visited {
+  color: rgba(255, 245, 238, 0.938)
+}
+
+a:hover {
+  color: rgba(163, 59, 120, 0.925)
+}
+
+a:focus {
+  color: rgba(51, 179, 184, 0.966)
+}
+
+/*========================MAIN============================*/
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+article.mission-container {
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.article-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  width: 1200px;
+  max-height: 160px;
+}
+
+h2.mission {
+  margin: 10px;
+}
+
+h4.mission {
+  margin: 6px;
+}
+
+/*================TEA OF THE MONTH STYLES=================*/
+
+h2.month-tea {
+  margin-top: 69px;
+}
+
+h2.month-tea,
+h4.month-tea {
+  text-align: center;
+}
+
+article#tea-article-container {
+  width: 1000px;
+}
+
+/*=================IMG MASON GRID STYLES==================*/
+
+#tea-picture-container { /* selects id="tea-pciture-container" */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-grid > * { /* selects all class="tea-grid" */
+  flex: 1 1 10em;
+  text-align: center;
+}
+
+.tea-grid img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+
+}
+
+/*=====================LOCATION STYLES====================*/
+
+address {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-flex-items > * { /* What is this???? Sent message to owner, in Discord */
+  flex: 1 1 10em;
+  text-align: center;
+  padding: 40px;
+}
+
+div.location-banner {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  margin-bottom: 320px;
+  padding-bottom: 15px;
+}
+
+div.location-flex-item-1 {
+  background-color:rgb(0, 0, 0);
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin-right: 40px;
+  color: rgba(255, 245, 238, 0.884)
+}
+
+.location-flex-item-1 h3 {
+  font-size: 30px;
+}
+
+div.location-flex-item-2 {
+  background-color:rgb(0, 0, 0);
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin-right: 40px;
+  color: rgba(255, 245, 238, 0.884)
+}
+
+.location-flex-item-2 h3 {
+  font-size: 30px;
+}
+
+div.location-flex-item-3 {
+  background-color:rgb(0, 0, 0);
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin-right: 40px;
+  color: rgba(255, 245, 238, 0.884)
+}
+
+.location-flex-item-3 h3 {
+  font-size: 30px;
+}
+
+/*=====================CONTACT SECTION====================*/
+
+#contact {
+  height: 200px;
+  text-align: center;
+  margin-top: -15px;
+  color: rgba(255, 245, 238, 0.884)
+}
+
+/*=========================FOOTER=========================*/
+
+#footer {
+  text-align: left;
+  color: rgba(255, 245, 238, 0.884)
+}
